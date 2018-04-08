@@ -1,32 +1,34 @@
 import React from "react";
-import g from "glamorous";
-import { css } from "glamor";
-import Link from "gatsby-link";
-
 import { rhythm } from "../utils/typography";
-
-const linkStyle = css({ float: `right` });
+import g from "glamorous";
+import Avatar from "../components/avatar"
+import BlogHeader from "../components/header"
+import BlogFooter from "../components/footer"
 
 export default ({ children, data }) => (
   <g.Div
-    margin={`0 auto`}
+    margin='0 auto'
     maxWidth={700}
     padding={rhythm(2)}
     paddingTop={rhythm(1.5)}
+    paddingBottom={rhythm(1.5)}
+
+    display='grid'
+    gridTemplateColumns='1fr'
+    gridTemplateRows='auto 1fr auto'
+    minHeight='100%'
   >
-    <Link to={`/`}>
-      <g.H3
-        marginBottom={rhythm(2)}
-        display={`inline-block`}
-        fontStyle={`normal`}
-      >
-        {data.site.siteMetadata.title}
-      </g.H3>
-    </Link>
-    <Link className={linkStyle} to={`/about/`}>
-      About
-    </Link>
-    {children()}
+    <g.Header>
+      <BlogHeader
+        title={data.site.siteMetadata.title}
+      />
+    </g.Header>
+    <g.Main>
+      {children()}
+    </g.Main>
+    <g.Footer>
+      <BlogFooter />
+    </g.Footer>
   </g.Div>
 );
 
