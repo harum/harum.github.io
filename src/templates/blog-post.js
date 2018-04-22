@@ -1,10 +1,15 @@
 import React from "react";
+import PostTitle from "../components/postTitle"
 
 export default ({ data }) => {
   const post = data.markdownRemark;
   return (
     <div>
-      <h1>{post.frontmatter.title}</h1>
+      <PostTitle
+        title={post.frontmatter.title}
+        date={post.frontmatter.date}
+        timeToRead={post.timeToRead}
+      />
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
   );
@@ -16,7 +21,9 @@ export const query = graphql`
       html
       frontmatter {
         title
+        date(formatString: "DD MMMM, YYYY")
       }
+      timeToRead
     }
   }
 `;

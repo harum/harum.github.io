@@ -19,6 +19,8 @@ export default ({ data }) =>
           <PostTitle
             title={node.frontmatter.title}
             date={node.frontmatter.date}
+            timeToRead={node.timeToRead}
+            compact
           />
           <p>{node.excerpt}</p>
         </Link>
@@ -41,6 +43,7 @@ export const query = graphql`
             slug
           }
           excerpt
+          timeToRead
         }
       }
     }
