@@ -1,0 +1,50 @@
+{
+  "assetsByChunkName": {
+    "path---vue-parent-child-component": [
+      "path---vue-parent-child-component-7eb418c48943b78e990a.js",
+      "path---vue-parent-child-component-7eb418c48943b78e990a.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-e53740e861dd45112ff5.js",
+      "component---src-pages-index-js-e53740e861dd45112ff5.js.map"
+    ],
+    "path---": [
+      "path----f3b03df9c325dfc86250.js",
+      "path----f3b03df9c325dfc86250.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-da6f923cdd7ae8ac1cea.js",
+      "component---src-templates-blog-post-js-da6f923cdd7ae8ac1cea.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-13f00ec3a183fc7ea3cd.js",
+      "component---src-layouts-index-js-13f00ec3a183fc7ea3cd.js.map"
+    ],
+    "path---index": [
+      "path---index-9e9081be7f3cbcba939a.js",
+      "path---index-9e9081be7f3cbcba939a.js.map"
+    ],
+    "path---iife-javascript": [
+      "path---iife-javascript-5e6519cbed053db91c8c.js",
+      "path---iife-javascript-5e6519cbed053db91c8c.js.map"
+    ],
+    "commons": [
+      "commons-47df39f7d8f2ca8836f1.js",
+      "commons-47df39f7d8f2ca8836f1.js.map"
+    ],
+    "app": [
+      "app-04b166f95c19f870124a.js",
+      "build-js-styles.css",
+      "app-04b166f95c19f870124a.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-558fba756b0718e08086.js",
+      "component---src-pages-about-js-558fba756b0718e08086.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
