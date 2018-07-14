@@ -17,7 +17,7 @@ export default () => (
       Jakarta, Indonesia. I currently work at <a href="https://www.bukalapak.com/">Bukalapak</a> as Front End Developer since August 2015.
     </p>
 
-    <p>I believe that the best way to learn is to teach other. In this blog I try to
+    <p>I believe that the best way to learn is to teach about what we have learned. Whether we teach other or teach our self by making a note, a blog or other medium. In this blog I try to
     explain and rewrite what I have learned. I really apreciated feedback and discussion from you.</p>
 
     <p>I try to write my posts on English to practice my written English. I also want to
