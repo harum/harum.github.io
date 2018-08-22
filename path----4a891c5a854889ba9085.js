@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{112:function(a,t){a.exports={data:{site:{siteMetadata:{title:"Harum Bawa Blog",description:"My name is Putu Harum Bawa. I am a front end developer. This is my blog. I talk about web development and JavaScript stuff."}}},layoutContext:{}}}});
+//# sourceMappingURL=path----4a891c5a854889ba9085.js.map
